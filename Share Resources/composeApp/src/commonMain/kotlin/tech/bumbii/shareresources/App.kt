@@ -20,6 +20,7 @@ import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 import shareresources.composeapp.generated.resources.Res
 import shareresources.composeapp.generated.resources.logo
+import shareresources.composeapp.generated.resources.logo_image
 
 @Composable
 @Preview
@@ -38,6 +39,7 @@ fun App() {
                 ) {
                     Image(painterResource(Res.drawable.logo), null, Modifier.width(100.dp))
                     Text("Compose: $greeting")
+                    Image(painterResource(Res.drawable.logo_image), null, Modifier.width(100.dp))
                 }
             }
         }
