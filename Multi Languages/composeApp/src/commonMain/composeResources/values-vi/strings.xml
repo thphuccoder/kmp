@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bumbii Tech</string>
+    <string name="hello">Xin Chào</string>
+    <string name="switch_theme">Đổi Giao Diện</string>
+    <string name="theme">Giao diện: %1$s</string>
+    <string name="dark">Tối</string>
+    <string name="light">Sáng</string>
+</resources>
